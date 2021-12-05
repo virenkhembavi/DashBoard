@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.app__headerimg{
+  object-fit: contain;
+  margin-left: 22%;
+}
+
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 0.5px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+.app__header > Button:hover{
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.37); 
+}
+
+.app__posts{
+  padding: 20px;
+  padding-left: 22%;
+  /* display: flex;
+  justify-content: center; */
+}
+.app__header > Button {
+  margin-right: 22%;
+  
+}
+.app__search {
+  height: 30px;
+  width: 250px;
+  border-radius: 3px;
+  border:  0.5px solid lightgray ;
+  background-color: white;
+}
+
+.app__log{
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+  /* background-color: blue; */
+}
+
+.app__loginContainer{
+  margin-right: 22%;
+}
+
+.app__loginContainer:hover{
+ backdrop-filter: blur(10px);
+ box-shadow: 0px 10px 20px rgba(0,0,0,0.37);
+}
+
+.post__comments{
+  padding: 20px;
+  margin-top: -20px;
+}
+
+.app__posts{
+  display: flex;
+}
+
+.app__postRight{
+  margin-left: 20px;
+  margin-top: 22px;
+  display: flex;
+}
+
+.app_usernamee{
+  margin-left: 10px;
+  margin-top: 5px ;
+  
+}
+
+.app__switch{
+ margin-left: 33px;
+ margin-top: 27px;
+ color: lightskyblue;
+ font-size: 15px;
+}

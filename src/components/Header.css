@@ -1,0 +1,42 @@
+.header_img {
+    object-fit: contain;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.home {
+    color: black;
+}
+.header_search {
+    margin-right: 50px;
+    width: 15%;
+    background: transparent;
+    margin-left: 80px;
+    border-radius: 4px;
+    border-color: lightgrey;
+    /* background-color: rgba(211, 211, 211, 0.274); */
+}
+.header_img {
+    margin-left: 15%;
+}
+.home {
+    margin-right: 10px;
+}
+.message {
+    margin-right: 10px;
+    
+}
+.compass {
+        margin-right: 10px;
+
+}
+.heart {
+    margin-right: 10px;
+}
